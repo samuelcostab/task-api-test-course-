@@ -30,7 +30,7 @@ public class ApiTest {
 	public void shouldBeSaveTask() {
 		RestAssured
 		.given()
-			.body("{\"task\":\"TestAPI\", \"dueDate\": \"2021-08-29\"}")
+			.body("{\"task\":\"TestAPI\", \"dueDate\": \"2022-08-29\"}")
 			.contentType(ContentType.JSON)
 		.when()
 			.post("/todo")
